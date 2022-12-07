@@ -24,4 +24,4 @@ Click index.html
 
 ## Live Link
 
-[Here](https://eva-wamuyu.github.io/UI-Gradients/)
+[Here](https://wamuyu-eva.github.io/UI-Gradients/)
