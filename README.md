@@ -10,9 +10,9 @@ CodeVixens Day Uno Project.
 ## Running the project Locally
 
 ```
-git clone https://github.com/Eva-Wamuyu/UI-Gradients.git
+git clone https://github.com/Wamuyu-Eva/UI-Gradients.git
 or
-git clone git@github.com:Eva-Wamuyu/UI-Gradients.git
+git clone git@github.com:Wamuyu-Eva/UI-Gradients.git
 ```
 
 ```
