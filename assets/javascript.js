@@ -3,6 +3,8 @@ const next = document.getElementById('next');
 const gradient = document.querySelector(".gradient");
 const p1 = document.getElementById('pOne');
 const p2 = document.getElementById('pTwo');
+
+const copy = document.getElementById('copy');
 const DEFAULT1 = "#780206";
 const DEFAULT2 = "#061161";
 let counter = 0;
@@ -45,7 +47,7 @@ next.onclick =()=> {
         setGradients(gradients[counter],gradients2[counter]);
     }
     p1.innerText = gradients[counter];
-    p2.innerText = gradients[counter];
+    p2.innerText = gradients2[counter];
 }
 previous.onclick =()=> {
     if(counter <= 0){
@@ -57,7 +59,7 @@ previous.onclick =()=> {
     setGradients(gradients[counter],gradients2[counter]);
     }
     p1.innerText = gradients[counter];
-    p2.innerText = gradients[counter];
+    p2.innerText = gradients2[counter];
  
 }
 const setGradients = (col1, col2)=>{
